@@ -1,0 +1,211 @@
+@media (max-width:1165px) {
+    .copyright h2 {
+        font-size: 20px;
+    }
+}
+      
+@media (max-width:1000px) {
+    .servicesContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .serviceText {
+        width: 85%;
+        text-align: center;
+    }
+
+    .serviceText2 {
+        width: 85%;
+        text-align: center;
+    }
+
+    .servicesImage {
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width:860px) {
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        margin-top: 20px;
+    }
+
+    .aboutText {
+        width: 85%;
+    }
+
+    .climateCContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .climateCText {
+        width: 85%;
+    }
+
+    .climateCImage {
+        width: 80%;
+        padding: 15px;
+    }
+
+    .copyright {
+        padding: 10px;
+    }
+
+    .copyright h2 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:785px) {
+    .cardContainer {
+        padding: 10px 0px;
+    }
+
+    .miscInfo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brandName, .brandAddress {
+        margin: 20px 0px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .brandName .logo {
+        margin-left: 0px;
+    }
+
+    .brandName .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background-color: indigo; */
+    }
+
+    .brandName .logo img {
+        width: 190px;
+    }
+}
+
+@media (max-width:750px) {
+    .jumbotron {
+        width: 85%;
+        margin-left: 10%;
+    }
+
+    #accordion {
+        width: auto;
+        padding: 0px;
+    }
+
+    .testim {
+        padding: 50px;
+    }
+
+    .testim p {
+        margin-left: -30px;
+    }
+}
+
+.checkbtn {
+    color: #000;
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 1px 7px;
+    display: none;
+    /* border-radius: 5px; */
+    /* border: 2px solid #000; */
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width:625px) {
+    .topBar {
+        display: none;
+    }
+
+    .middleBar h2 {
+        display: none;
+    }
+
+    .navLinks {
+        height: 1px;
+    }
+
+    .heroSection {
+        padding: 180px 0px;
+        margin-top: -75px;
+    }
+}
+
+@media (max-width:625px) {
+
+    .navLinks ul {
+        /* background-color: white; */
+        background-color: #a0a0a0;
+        position: absolute;
+        right: 0px;
+        top: 75px;
+        flex-direction: column;
+        display: none;
+        height: 450px;
+        width: 50%;
+        /* border-top: 1px solid #c5c5c5; */
+        border-radius: 0px 0px 0px 15px;
+    }
+
+    .navLinks ul li{
+        /* background-color: white; */
+        background-color: transparent;
+        /* background-color: khaki; */
+        height: 28%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navLinks ul li a {
+        color: white;
+    }
+
+    .navLinks ul button{
+        width: 90%;
+        height: 45px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navLinks ul {
+        display: flex;
+    }
+}
+
+@media (max-width:550px) {
+    .servicesContainer .servicesImage {
+        width: 250px;
+        aspect-ratio: 16/9;
+    }
+
+    .ourServiceContainer{
+        margin: -50px 0px 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .aboutImage {
+        width: 250px;
+    }
+}
