@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -680,9 +681,9 @@ footer {
     margin: 0px 50px;
 }
 
-.copyright h2 {
+.copyright h4 {
     text-align: center;
-    font-weight: 400;
-    font-size: 28px;
+    font-weight: 200;
+    font-size: 24px;
     letter-spacing: 0.5px;
 }
